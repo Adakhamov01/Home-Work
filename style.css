@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: darkslategrey;
+}
+.nav-Master{
+    height: 80px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 20px;
+}
+.nav-Master > ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    list-style-type: none;
+}
+.nav-Master > ul >li {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-Master > ul >li:hover {
+    border-bottom: 2px solid blue;
+}
+.Hojiakbar{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+}
+.Hojiakbar > span {
+   text-align: center;
+}
+.main-ali{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-bottom: 10px;
+}
+.main-ali > span {
+    text-align: center;
+ }
+ footer {
+    height: 400px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
